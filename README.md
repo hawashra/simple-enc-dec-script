@@ -1,9 +1,13 @@
-## USAGE
+## Simple dummy encryption/decryption algorithm in bash script
+This project was part of the Linux operating system laboratory at Birzeit University. 
 
-#### 1) Run the script:
+### USAGE
+
+- Run the script:
 `./proj.sh`
-#### 2) Choose to encrypt or decrypt from the menu
+ - Choose to encrypt or decrypt from the menu
 
-#### 3) Enter a filename to encrypt/decrypt, then enter the output file name.
+ - Enter a filename to encrypt/decrypt, then enter the output file name.
 
-##### This is not meant to be used for encrypting files, obviously. It's just a simple exercise on bash script. 
+> [!WARNING]
+> This is not meant to be used in the real world for encrypting files. It's just a simple exercise on bash script syntax. 
