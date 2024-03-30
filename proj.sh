@@ -86,7 +86,6 @@ encrypt() {
 
 decrypt() {
 >temp.txt
-
         # read the cipher text file name
         read -p "please enter the name of the cipher text file: " cipher
 
@@ -108,13 +107,13 @@ decrypt() {
 >"$plain"
 
 
+        i=1
         sp="/-\|"
         echo -n 'deryprting the file..'
 
         for line in `sed 's/......../&\n/g' "temp.txt"`; do
 
-                #printf "\b${sp:i++%${#sp}:1}"
-
+                printf "\b${sp:i++%${#sp}:1}"
 
                 bitsRev="$line"
                 bits="${bitsRev#????}${bitsRev%????}"
